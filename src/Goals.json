@@ -1,0 +1,19 @@
+
+[
+    {
+        "Id":"1",
+        "goal":"Saneamento Basico"
+    },
+    {
+        "Id":"2",
+        "goal":"Acesso a informaçao"
+    },
+    {
+        "Id":"3",
+        "goal":"Educaçao"
+    },
+    {
+        "Id":"4",
+        "goal":"Infraestrutura"
+    }
+]
