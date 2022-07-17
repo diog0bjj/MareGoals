@@ -2,12 +2,13 @@ import React from "react";
 import * as S from './styledFooter.js'
 
 export default function Footer(){
+
     return(
         <>
         <S.MidiasAndlocalization>
         <div>
-            <h2>Maré Unida</h2>
-            <S.Welcome>Bem vindo à pagina da Maré Unida</S.Welcome>
+            <h2>Maré</h2>
+            <S.Welcome>Bem vindo à pagina da Maré</S.Welcome>
             <nav>
                 <S.ListItems>
                     <li>Rio de Janeiro, Rj, Brasil</li>
