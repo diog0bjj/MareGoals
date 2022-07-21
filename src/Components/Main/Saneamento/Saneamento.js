@@ -5,7 +5,7 @@ import * as S from './Ssaneamento';
 
 export default function Saneamento(){
     return(
-        <div style={{backgroundColor:'#212529'}}>
+        <div style={{backgroundColor:'#212529', minHeight:'50vh'}}>
         <FullCard>
             <S.Intro>
                 <div>
@@ -20,10 +20,10 @@ export default function Saneamento(){
             <S.Objectives>
                 <h2>Objetivos</h2>
                 <S.ListOfObjectives>
-                    <li>diminuir</li>
-                    <li>diminuir</li>
-                    <li>diminuir</li>
-                    <li>diminuir</li>
+                    <li>Promoçao de campanhas para concientizaçao sobre o ciclo de despejos e seus impactos na maré</li>
+                    <li>ajuda local na coleta de lixos</li>
+                    <li>trabalhar a concientizaçao sobre a importancia do não desperdicio de água</li>
+                    <li>Pesquisas para observar a qualidade da agua nas residencias</li>
                 </S.ListOfObjectives>
             </S.Objectives>
         </FullCard>

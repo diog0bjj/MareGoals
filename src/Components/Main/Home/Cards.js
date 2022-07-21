@@ -12,7 +12,7 @@ border-radius:10px;
 margin:1.2rem;
 color:white;
 padding:0.5rem;
-box-shadow:0 0 10px #00bfff;
+box-shadow:0 0 10px #00bfffn;
 transition: all 200ms linear;
 
 &:hover{

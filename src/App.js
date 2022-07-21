@@ -5,8 +5,8 @@ import { createGlobalStyle } from "styled-components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './Components/Main/Home/Home';
 import Educacao from './Components/Main/Educacao/Educacao';
-import Informacao from './Components/Main/Informacao/Informacao';
-import Infraestrutura from './Components/Main/Infraestrutura/Infraestrutura';
+import Tecnologia from './Components/Main/Tecnologia/Tecnologia';
+import Saude from './Components/Main/Saude/Saude';
 import Poluicao from './Components/Main/Poluicao/Poluicao';
 import Saneamento from './Components/Main/Saneamento/Saneamento';
 
@@ -28,8 +28,8 @@ export default function App(){
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/Educacao" element={<Educacao/>} />
-          <Route path="/Informacao" element={<Informacao/>} />
-          <Route path="/Infraestrutura" element={<Infraestrutura/>} />
+          <Route path="/Tecnologia" element={<Tecnologia/>} />
+          <Route path="/Saude" element={<Saude/>} />
           <Route path="/Poluicao" element={<Poluicao/>} />
           <Route path="/Saneamento" element={<Saneamento/>} />
         </Routes>

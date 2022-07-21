@@ -22,9 +22,11 @@ list-style:none;
 width:100%;
 display:Flex;
 flex-direction:column;
+margin-top:1rem;
 
 & li{
     margin:0.5rem;
     word-wrap: break-word;
     width:100%;
+    font-size:2vh;
 }`

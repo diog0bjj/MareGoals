@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Menu = styled.section`
 display:flex;
 justify-content:space-between;
-height:5rem;
+height:15vh;
 border-width:thin;
 align-items:center;
 padding:0 5vw;
@@ -45,7 +45,9 @@ font-size:10px;
 border-radius:10px;
 margin-left:0.2rem;
 padding:0.2rem;
-outline:none;`
+outline:none;
+color:#000;
+text-transform:none;`
 
 export const Check = styled.div`
 display:Flex;

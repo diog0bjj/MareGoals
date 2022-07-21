@@ -5,7 +5,7 @@ const FullGoal = styled.div`
 display:flex;
 flex-direction:column;
 justify-content:space-between;
-width:30rem;
+width:50vw;
 color:black;
 margin: 0 auto;
 border: 1px solid black;

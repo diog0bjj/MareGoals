@@ -1,17 +1,17 @@
 import React from "react";
 import FullCard from '../FullCard';
 import {MdPermDeviceInformation} from "react-icons/md";
-import * as S from './Sinformacao';
+import * as S from './Stecnologia';
 
 export default function Informacao(){
     return(
-        <div style={{backgroundColor:'#212529'}}>
+        <div style={{backgroundColor:'#212529', minHeight:'50vh'}}>
         <FullCard>
             <S.Intro>
                 <div>
                     <h6>desenvolvimento Sustentavel na Maré</h6>
                     <h1 style={{margin:'0.5rem 0'}}>2</h1>
-                    <h2>Informaçao</h2>
+                    <h2>Tecnologia</h2>
                 </div>
                 <div>
                     <MdPermDeviceInformation size={80}/>
@@ -20,7 +20,7 @@ export default function Informacao(){
             <S.Objectives>
                 <h2>Objetivos</h2>
                 <S.ListOfObjectives>
-                    <li>diminuir</li>
+                    <li>Aulas tecnicas sobre diversos conteudos</li>
                     <li>diminuir</li>
                     <li>diminuir</li>
                     <li>diminuir</li>

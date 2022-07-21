@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Objectives = styled.div`
 border-radius:0 0 20px 20px;
-padding:0.4rem;
+padding:0.4rem 1rem;
 display:flex;
 align-items:center;
 flex-direction:column;`
@@ -17,14 +17,14 @@ color:white;
 background-color:#00bfff;
 height:10rem;`
 
-export const ListOfObjectives = styled.ul`
-list-style:none;
+export const ListOfObjectives = styled.ol`
 width:100%;
 display:Flex;
 flex-direction:column;
 
 & li{
-    margin:0.5rem;
+    margin-top:1rem;
     word-wrap: break-word;
     width:100%;
+    font-size:2vh;
 }`

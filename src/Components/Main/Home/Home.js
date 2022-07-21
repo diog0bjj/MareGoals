@@ -5,7 +5,7 @@ import {AiOutlineCar} from "react-icons/ai";
 import {BsWater} from "react-icons/bs";
 import {MdPermDeviceInformation} from "react-icons/md";
 import {BsBook} from "react-icons/bs";
-import {MdConstruction} from "react-icons/md";
+import {BiHealth} from "react-icons/bi";
 import {Link} from 'react-router-dom';
 
 export default function Main(){
@@ -30,11 +30,11 @@ export default function Main(){
                             </S.IconGoal>
                         </Goals>
                     </Link>
-                    <Link style={{textDecoration:'none'}} to='./Informacao'>
+                    <Link style={{textDecoration:'none'}} to='./Tecnologia'>
                         <Goals>
                             <S.InfosGoal>
                                 <S.GoalNumber>2</S.GoalNumber>
-                                <S.GoalName>Acesso a informaçao</S.GoalName>
+                                <S.GoalName>Tecnologia</S.GoalName>
                             </S.InfosGoal>
                             <S.IconGoal>
                                 <MdPermDeviceInformation size={80}/>
@@ -45,21 +45,21 @@ export default function Main(){
                         <Goals>
                             <S.InfosGoal>
                                 <S.GoalNumber>3</S.GoalNumber>
-                                <S.GoalName>Educaçao</S.GoalName>
+                                <S.GoalName>Educação</S.GoalName>
                             </S.InfosGoal>
                             <S.IconGoal>
                                 <BsBook size={80}/>
                             </S.IconGoal>
                         </Goals>
                     </Link>
-                    <Link style={{textDecoration:'none'}} to='./Infraestrutura'>
+                    <Link style={{textDecoration:'none'}} to='./Saude'>
                         <Goals>
                             <S.InfosGoal>
                                 <S.GoalNumber>4</S.GoalNumber>
-                                <S.GoalName>Infraestrutura</S.GoalName>
+                                <S.GoalName>Saúde</S.GoalName>
                             </S.InfosGoal>
                             <S.IconGoal>
-                                <MdConstruction size={80}/>
+                                <BiHealth size={80}/>
                             </S.IconGoal>
                         </Goals>
                     </Link>
@@ -67,7 +67,7 @@ export default function Main(){
                         <Goals>
                             <S.InfosGoal>
                                 <S.GoalNumber>5</S.GoalNumber>
-                                <S.GoalName>Poluiçao</S.GoalName>
+                                <S.GoalName>Poluição</S.GoalName>
                             </S.InfosGoal>
                             <S.IconGoal>
                                 <AiOutlineCar size={80}/>

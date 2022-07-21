@@ -1,11 +1,25 @@
-import React, {useState} from "react";
+import React, {useState, useRef} from "react";
 import * as S from './styledHeader.js';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import emailjs from '@emailjs/browser';
 
 export default function Header(){
 
     
     const [modal, setModal] = useState(false);
+
+    const form = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('sendemail', 'template_dbl6iz8', form.current, 'aQc1RmLvYB4Xc7Rn8')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
 
     function AddSuggestion(){
         return(
@@ -22,7 +36,11 @@ export default function Header(){
                     <label>Comentarios sobre o tema:</label>
                     <S.InputSuggestions type='Comentarios'/>
                 </S.Check>
-                <S.SubmitBtn type='submit'>Submit</S.SubmitBtn>
+                <S.Check>
+                    <label>Digite Seu email para contato:</label>
+                    <S.InputSuggestions ref={form} type='email' name='user_email'/>
+                </S.Check>
+                <S.SubmitBtn type='submit' onSubmit={()=>{sendEmail()}}>Submit</S.SubmitBtn>
             </form>
         </S.SuggestionModal>
         </>
