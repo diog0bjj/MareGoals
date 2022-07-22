@@ -24,7 +24,9 @@ display:Flex;
 flex-direction:column;
 
 & li{
-    margin:0.5rem;
+    margin-top:1.5rem;
     word-wrap: break-word;
     width:100%;
+    font-size:2.5vh;
+    text-transform:none;
 }`

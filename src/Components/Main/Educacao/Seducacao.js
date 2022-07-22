@@ -17,14 +17,16 @@ color:white;
 background-color:#00bfff;
 height:10rem;`
 
-export const ListOfObjectives = styled.ol`
+export const ListOfObjectives = styled.ul`
 width:100%;
 display:Flex;
 flex-direction:column;
+list-style:none;
 
 & li{
-    margin-top:1rem;
+    margin-top:1.5rem;
     word-wrap: break-word;
     width:100%;
-    font-size:2vh;
+    font-size:2.5vh;
+    text-transform:none;
 }`

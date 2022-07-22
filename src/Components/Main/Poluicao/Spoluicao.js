@@ -25,8 +25,9 @@ flex-direction:column;
 margin-top:1rem;
 
 & li{
-    margin:0.5rem;
+    margin-top:1.5rem;
     word-wrap: break-word;
     width:100%;
-    font-size:2vh;
+    font-size:2.5vh;
+    text-transform:none;
 }`

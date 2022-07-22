@@ -3,7 +3,7 @@ import * as S from './Shome'
 import Goals from './Cards'
 import {AiOutlineCar} from "react-icons/ai";
 import {BsWater} from "react-icons/bs";
-import {MdPermDeviceInformation} from "react-icons/md";
+import {BsMusicPlayerFill} from "react-icons/bs";
 import {BsBook} from "react-icons/bs";
 import {BiHealth} from "react-icons/bi";
 import {Link} from 'react-router-dom';
@@ -30,14 +30,14 @@ export default function Main(){
                             </S.IconGoal>
                         </Goals>
                     </Link>
-                    <Link style={{textDecoration:'none'}} to='./Tecnologia'>
+                    <Link style={{textDecoration:'none'}} to='./CultureAndLeisure'>
                         <Goals>
                             <S.InfosGoal>
                                 <S.GoalNumber>2</S.GoalNumber>
-                                <S.GoalName>Tecnologia</S.GoalName>
+                                <S.GoalName>Cultura e Lazer</S.GoalName>
                             </S.InfosGoal>
                             <S.IconGoal>
-                                <MdPermDeviceInformation size={80}/>
+                                <BsMusicPlayerFill size={80}/>
                             </S.IconGoal>
                         </Goals>
                     </Link>

@@ -6,7 +6,7 @@
 
 <h1 align='center'>Creating a page about some issues and ideais to reduce them</h1>
 
-![site Maré Goals](./src/Assets/MareGoals.png)
+![site Maré Goals](./src/Assets/Capturar.png)
 
 <h2>Technologies</h2>
 
